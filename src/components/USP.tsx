@@ -8,67 +8,67 @@ const USP = () => {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Почему выбирают именно наш менторинг?
+            Почему выбирают "Авоська Менторинг"?
           </h2>
           <p className="text-xl">
-            Индивидуальный подход, проверенные стратегии и гарантированный прогресс. Вместе мы достигнем ваших целей быстрее, чем вы могли себе представить.
+            Индивидуальный подход, практические знания и фокус на результат. Вместе мы создадим ваше первое iOS-приложение и подготовим вас к профессиональной карьере.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover:bg-white/20 transition-all duration-300">
+            <h3 className="text-xl font-bold mb-4">Практические проекты</h3>
+            <p className="mb-6">Не просто теория, а реальные приложения для вашего портфолио, которые вы можете показать работодателям.</p>
+            <ul className="space-y-2">
+              <li className="flex items-center gap-2">
+                <Check className="h-5 w-5 text-green-400" />
+                <span>Создание полноценных приложений</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="h-5 w-5 text-green-400" />
+                <span>Работа с реальными API</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="h-5 w-5 text-green-400" />
+                <span>Публикация в App Store</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover:bg-white/20 transition-all duration-300">
             <h3 className="text-xl font-bold mb-4">Индивидуальный подход</h3>
-            <p className="mb-6">Каждый клиент уникален, поэтому программа менторинга разрабатывается специально под ваши цели и особенности.</p>
+            <p className="mb-6">Программа обучения адаптируется под ваши знания, темп и цели в iOS-разработке.</p>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-green-400" />
-                <span>Персональный план развития</span>
+                <span>Персональный план обучения</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-green-400" />
-                <span>Учет ваших сильных и слабых сторон</span>
+                <span>Фокус на ваших слабых местах</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-green-400" />
-                <span>Адаптация под ваш график</span>
+                <span>Гибкий график занятий</span>
               </li>
             </ul>
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover:bg-white/20 transition-all duration-300">
-            <h3 className="text-xl font-bold mb-4">Проверенные стратегии</h3>
-            <p className="mb-6">Используем только те методики, которые показали свою эффективность на практике у сотен наших клиентов.</p>
+            <h3 className="text-xl font-bold mb-4">Опыт работы в индустрии</h3>
+            <p className="mb-6">Получите знания от разработчика с реальным опытом в крупных компаниях и множеством успешных проектов.</p>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-green-400" />
-                <span>Основано на реальном опыте</span>
+                <span>Актуальные практики и технологии</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-green-400" />
-                <span>Актуальные инструменты и подходы</span>
+                <span>Инсайты из индустрии</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-green-400" />
-                <span>Регулярное обновление методик</span>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl hover:bg-white/20 transition-all duration-300">
-            <h3 className="text-xl font-bold mb-4">Гарантированный прогресс</h3>
-            <p className="mb-6">Мы не просто даем знания — мы обеспечиваем измеримый результат и реальное продвижение к вашим целям.</p>
-            <ul className="space-y-2">
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-green-400" />
-                <span>Отслеживание KPI вашего прогресса</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-green-400" />
-                <span>Регулярная обратная связь</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-green-400" />
-                <span>Прозрачный план достижения целей</span>
+                <span>Связи в сообществе разработчиков</span>
               </li>
             </ul>
           </div>
